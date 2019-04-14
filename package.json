@@ -1,0 +1,26 @@
+{
+	"name": "vue-graphql-frontend",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "parcel serve src/index.html --port 8000",
+		"build": "parcel build src/index.html"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@vue/component-compiler-utils": "^3.0.0",
+		"parcel-bundler": "^1.12.3",
+		"sass": "^1.18.0",
+		"vue-template-compiler": "^2.6.10"
+	},
+	"dependencies": {
+		"apollo-boost": "^0.3.1",
+		"graphql": "^14.2.1",
+		"vue": "^2.6.10",
+		"vue-apollo": "^3.0.0-beta.28",
+		"vue-hot-reload-api": "^2.3.3"
+	}
+}
